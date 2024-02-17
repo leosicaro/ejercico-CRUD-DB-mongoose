@@ -1,0 +1,22 @@
+
+POST http://localhost:3000/create
+
+{
+    "tittle" : "saludar",
+    "completed" : "true"
+}
+
+
+##Encontrar todas las tareas##
+
+
+GET http://localhost:3000/
+
+
+## encontrar tareas por id
+
+GET http://localhost:3000/id/:_id
+
+{
+    "_id" : "65d02137bc9c71c19c1f1fb7"
+}
